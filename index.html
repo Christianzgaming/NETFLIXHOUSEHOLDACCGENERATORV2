@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Account Generator - Update Required</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0101; /* Very dark red/black */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        /* Neon Blue Title */
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #4da6ff;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #0066cc, 0 0 20px #0066cc, 0 0 30px #0066cc;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        /* Neon Red Attention */
+        .attention {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ff3333;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #cc0000, 0 0 20px #cc0000;
+            margin-bottom: 10px;
+        }
+
+        .message {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff3333;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #cc0000, 0 0 20px #cc0000;
+            margin-bottom: 40px;
+        }
+
+        /* Social Links */
+        .socials {
+            font-size: 1.2rem;
+            color: #ffffff;
+        }
+
+        .socials p {
+            margin: 10px 0;
+        }
+
+        .highlight {
+            color: #ff4d4d;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .highlight:hover {
+            text-decoration: underline;
+        }
+
+        /* Warning Icon Symbol */
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">NETFLIX ACCOUNT GENERATOR UPDATE!</div>
+        
+        <div class="attention">
+            <span class="icon">⚠️</span> ATTENTION! PLEASE UPDATE THE EXTENSION
+        </div>
+        
+        <div class="message">
+            TO UPDATE THE EXTENSION GET THE NEW EXTENSION APP
+        </div>
+
+        <div class="socials">
+            <p>Message on Facebook: <span class="highlight" id="fbLink">@chanzkiepogi</span></p>
+            <p>or Instagram: <span class="highlight" id="igLink">@chnzai1_</span></p>
+        </div>
+    </div>
+
+    <script>
+        // Gawin nating clickable ang mga links gaya ng request mo
+        document.getElementById('fbLink').addEventListener('click', () => {
+            window.open('https://www.facebook.com/chanzkiepogi', '_blank');
+        });
+
+        document.getElementById('igLink').addEventListener('click', () => {
+            window.open('https://www.instagram.com/chnzai1_', '_blank');
+        });
+    </script>
+</body>
+</html>
